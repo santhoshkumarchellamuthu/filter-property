@@ -1,0 +1,59 @@
+*{
+	margin:0;
+	padding:0;
+	box-sizing:border-box;
+	}
+.home{
+	width:90%;
+	margin:30px auto;
+	background-color:#f3f5fa;
+	padding:20px 0;
+	}
+.flex-container{
+	display:flex;
+	justify-content:flex-end;
+	align-items:center;
+	}
+.flex-items{
+	width:16%;
+	height:auto;
+	}
+img{
+	width:50%;
+	}
+.image1{
+	filter:blur(3px);
+	}
+.image1:hover{
+	filter:blur(0);
+	}
+.image2{
+	filter:contrast(0%);
+	}
+.image2:hover{
+	filter:contrast(100%);
+	}
+.image3{
+	filter:opacity(0.5);
+	}
+.image3:hover{
+	filter:none;
+	}
+.image4{
+	filter:grayscale(100%);
+	}
+.image4:hover{
+	filter:grayscale(0%);
+	}
+.image5{
+	filter:hue-rotate(200deg);
+	}
+.image5:hover{
+	filter:hue-rotate(0deg);
+	}
+.image6{
+	filter:invert(50%);
+	}
+.image6:hover{
+	filter:invert(0%);
+	}
